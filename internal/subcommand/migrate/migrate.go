@@ -22,7 +22,8 @@ func Execute(a *Args) {
 
 	template := defaultTemplate
 	content := util.ParseTemplate(template, data{
-		MigrationFilenames: filenames,
+		MigrationPackageDirectory: util.ResolvePath(defaultMigrationDir),
+		MigrationFilenames:        filenames,
 	})
 
 	err = ioutil.WriteFile(defaultFileName, content, 0777)

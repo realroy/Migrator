@@ -1,5 +1,6 @@
 package migrate
 
 type data struct {
-	MigrationFilenames []string
+	MigrationPackageDirectory string
+	MigrationFilenames        []string
 }

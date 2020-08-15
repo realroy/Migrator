@@ -5,6 +5,7 @@ package main
 
 import (
 	"log"
+	"{{ migrationPackageDirectory }}"
 	"github.com/realroy/migrator/pkg/connection"
 		
 	"gopkg.in/gormigrate.v1"
