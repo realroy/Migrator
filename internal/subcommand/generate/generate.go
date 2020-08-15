@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"migrator/internal/util"
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/realroy/migrator/internal/util"
 )
 
 // Execute Generate migration

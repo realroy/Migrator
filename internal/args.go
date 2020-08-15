@@ -1,8 +1,9 @@
 package internal
 
 import (
-	"migrator/internal/subcommand/generate"
-	"migrator/internal/subcommand/migrate"
+	"github.com/realroy/migrator/internal/subcommand/migrate"
+
+	"github.com/realroy/migrator/internal/subcommand/generate"
 
 	"github.com/alexflint/go-arg"
 )

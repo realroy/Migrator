@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"migrator/internal/util"
 	"os"
 	"os/exec"
 	"strings"
+
+	"github.com/realroy/migrator/internal/util"
 )
 
 // Execute database migration from migration files

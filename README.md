@@ -4,7 +4,8 @@ Database migration CLI that inspired from Rails.
 
 ## Usage
 ```
-  make build
+  go get github.com/realroy/migrator
+  
 ```
 
 ## Example
@@ -14,7 +15,7 @@ Database migration CLI that inspired from Rails.
   ./build/migrator generate CreateNewModel
 ```
 
-### Migrate
+### Run migrate
 ```
   ./build/migrator migrate
 ```

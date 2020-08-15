@@ -1,7 +1,7 @@
 package main
 
 import (
-	"migrator/internal"
+	"github.com/realroy/migrator/internal"
 )
 
 func main() {

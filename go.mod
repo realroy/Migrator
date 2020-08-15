@@ -1,4 +1,4 @@
-module migrator
+module github.com/realroy/migrator
 
 go 1.14
 
