@@ -5,8 +5,7 @@ package main
 
 import (
 	"log"
-	"github.com/realroy/migrator/internal/connection"
-	"github.com/realroy/migrator/migration"
+	"github.com/realroy/migrator/pkg/connection"
 		
 	"gopkg.in/gormigrate.v1"
 )
