@@ -1,3 +1,4 @@
 # Migrator
 
-CLI for dealing with database migration
+Database migration CLI that inspired from Rails.
+
