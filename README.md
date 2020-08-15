@@ -3,6 +3,9 @@
 Database migration CLI that inspired from Rails.
 
 ## Usage
+```
+  make build
+```
 
 ## Example
 
