@@ -20,7 +20,8 @@ func Execute(a *Args) {
 
 	filenames := extractFilenames(files)
 
-	content := util.ParseTemplate(defaultTemplateFilename, data{
+	template := defaultTemplate
+	content := util.ParseTemplate(template, data{
 		MigrationFilenames: filenames,
 	})
 

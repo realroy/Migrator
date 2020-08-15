@@ -1,4 +1,6 @@
-package migration
+package generate
+
+var defaultTemplate string = `package migration
 
 import (
 	"gopkg.in/gormigrate.v1"
@@ -20,3 +22,4 @@ var {{.VariableName}} = &gormigrate.Migration {
 		return tx.DropTable("model").Error
 	},
 }
+`

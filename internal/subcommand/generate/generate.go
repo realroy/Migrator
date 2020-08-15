@@ -26,7 +26,8 @@ func Execute(a *Args) {
 
 	log.Printf("generating migration %s ...\n", filename)
 
-	content := util.ParseTemplate(defaultTemplate, data{
+	template := defaultTemplate
+	content := util.ParseTemplate(template, data{
 		VariableName: migrationName,
 		Timestamp:    parseTimestamp,
 	})
